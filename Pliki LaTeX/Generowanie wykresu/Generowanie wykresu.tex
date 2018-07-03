@@ -1,0 +1,27 @@
+﻿\documentclass[11pt,a4paper]{article}       % okreslenie klasy dokumentu, rozmiaru czcionki bazowej, formatu
+\usepackage[polish]{babel}                  % dokument w jezyku polskim
+\usepackage[utf8]{inputenc}                 % system kodowania
+\usepackage{bchart}                         % dodanie pakietu odpowiedzialnego za generowanie wykresow
+\usepackage{gensymb}                        % dodanie pakietu odpowiedzialnego za symbole (w przykladzie symbol stC)
+
+% okresla tytul dokumnetu
+\title{Generowanie wykresu.}                                                           
+\author{}                                   % autor
+\date{}                                     % data wydania (pzostawiono puste, nie bedzie wyswietlona)
+
+\begin{document}
+\maketitle
+
+\begin{bchart}[step=5, min=15, max=45, width=11cm,unit=\degree C]   %kod tworzacy wykres (definicja punktow)
+\bcbar[label=09:08]{37.38}
+\smallskip
+\bcbar[label=09:03]{26.97}
+\smallskip
+\bcbar[label=08:58]{30.67}
+\smallskip
+\bcbar[label=08:53]{39.38}
+\smallskip
+\bcbar[label=08:48]{36.68}
+\end{bchart}
+
+\end{document}
