@@ -1,5 +1,5 @@
-﻿Pliki .tex można przetworzyć do postaci PDF za pomocą polecenia "pdflatex <nazwa pliku>".
+Pliki .tex można przetworzyć do postaci PDF za pomocą polecenia "pdflatex <nazwa pliku>".
 
-Wymagana jest instalacja środowiska LaTeX np. MiKTeX (https://miktex.org/)
-.
+Wymagana jest instalacja środowiska LaTeX np. MiKTeX (https://miktex.org/).
+
 Kolejna porcja przykładów niebawem.
