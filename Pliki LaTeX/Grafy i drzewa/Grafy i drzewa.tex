@@ -1,0 +1,31 @@
+﻿\documentclass[11pt,a4paper]{article}       % okreslenie klasy dokumentu, rozmiaru czcionki bazowej, formatu
+\usepackage[polish]{babel}                  % dokument w jezyku polskim
+\usepackage[utf8]{inputenc}                 % system kodowania
+\usepackage{forest}
+
+
+% okresla tytul dokumnetu
+\title{Grafy i drzewa.}                                                           
+\author{}                                   % autor
+\date{}                                     % data wydania (pzostawiono puste, nie bedzie wyswietlona)
+
+\begin{document}
+\maketitle
+
+\centering 				%centrowanie
+
+Przykładowy graf nr 1\\
+\vspace{5mm}
+\begin{forest}
+ [element 1 [element 2 [element 3] [element 4]] [element 5 [element 6] [element 7] ] ]
+\end{forest}
+
+\vspace{30mm}
+
+Przykładowy graf nr 2\\
+\vspace{10mm}
+\begin{forest}
+ [element 1, circle, draw [element 2, rectangle, draw] [element 3, rectangle, draw]]
+\end{forest}
+
+\end{document}
